@@ -14,6 +14,7 @@ body {
 
 .timer {
     justify-items: center;
+    text-align: center;
     padding-top: 50px;
 }
 
@@ -177,7 +178,7 @@ body {
 }
 
 .str2-palette img {
-    border-radius: 50%;
+    border-radius: 100%;
     margin-right: 10px;
     max-width: 70px;
 }
