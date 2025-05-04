@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: CormorantInfant-Light;
+    src: url("assets/fonts/CormorantInfant-Light.ttf");
+}
+
+body {
+    font-family: CormorantInfant-Light, sans-serif;
+}
+
+.timer {
+    justify-items: center;
+    padding-top: 50px;
+}
+
+.timer__items {
+    display: flex;
+    font-size: 48px;
+}
+.timer__item {
+    position: relative;
+    min-width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.timer__item::before {
+    content: attr(data-title);
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    font-size: 14px;
+}
+.timer__item:not(:last-child)::after {
+    content: ':';
+    position: absolute;
+    right: -15px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.str1 .container {
+    max-width: 1200px;
+    padding: 144px 0 144px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.str1 .container:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("assets/images/Слой 7.png"), url("assets/images/Слой 6.png");
+    background-repeat: no-repeat no-repeat;
+    background-position: left top,
+    right top;
+
+}
+
+.str1-advantage {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.advantage-h1 {
+    font-size: 65px;
+    padding-bottom: 160px;
+    text-align: center;
+}
+
+.advantage-title {
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.advantage-description {
+    font-size: 26px;
+}
+
+
+.str2 {
+    padding: 144px 0 144px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.str2 .container {
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    justify-items: center;
+    padding-bottom: 50px;
+}
+
+.str2:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("assets/images/Фон2.png");
+    background-repeat: no-repeat ;
+    background-position: left top;
+    background-size: cover;
+}
+
+.str2-h2 {
+    font-size: 40px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.str2-address {
+    font-size: 23px;
+    max-width: 600px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.str2-joy {
+    font-size: 23px;
+    max-width: 600px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.str2-foto img {
+    max-width: 400px;
+    border-radius: 50%;
+
+}
+
+.str2-span {
+    font-size: 23px;
+    margin: 10px 0 30px 0;
+}
+
+.str2-address-h3 {
+    font-size: 26px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.str2-gifts {
+    font-size: 20px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.str2-fotos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.str2-palette img {
+    border-radius: 50%;
+    margin-right: 10px;
+    max-width: 70px;
+}
+
+
+.str3 .container {
+    max-width: 1200px;
+    padding: 144px 0 50px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    justify-items: center;
+}
+
+.str3 .container:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("assets/images/Слой 4.png"), url("assets/images/Слой 5.png");
+    background-repeat: no-repeat no-repeat;
+    background-position: left top,
+    bottom right;
+}
+
+.str3-h2 {
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.str3-text {
+    padding-bottom: 20px;
+    max-width: 600px;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 15px;
+}
+
+.str3-time {
+    font-size: 28px;
+    text-align: left;
+    justify-self: left;
+}
+
+.str3-event {
+    font-size: 22px;
+    text-align: left;
+    justify-self: left;
+}
+
+.str3-address {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+
+
