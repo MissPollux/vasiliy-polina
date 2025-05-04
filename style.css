@@ -7,6 +7,10 @@
     font-family: CormorantInfant-Light;
     src: url("assets/fonts/CormorantInfant-Light.ttf");
 }
+@font-face {
+    font-family: Montserrat-Light;
+    src: url("assets/fonts/Montserrat-Light.ttf");
+}
 
 body {
     font-family: CormorantInfant-Light, sans-serif;
@@ -96,6 +100,7 @@ body {
     font-size: 26px;
     text-transform: uppercase;
     margin-bottom: 30px;
+
 }
 
 .advantage-description {
@@ -137,24 +142,31 @@ body {
     font-size: 40px;
     padding-top: 100px;
     padding-bottom: 50px;
+    font-family: Montserrat-Light, sans-serif;
 }
 
 .str2-address {
     font-size: 23px;
     max-width: 600px;
-    text-align: center;
     padding-bottom: 20px;
+    text-align: justify;
 }
 
 .str2-joy {
     font-size: 23px;
     max-width: 600px;
-    text-align: center;
+    text-align: justify;
     padding-bottom: 40px;
+    text-indent: 40px;
 }
 
 .str2-foto img {
-    max-width: 400px;
+    max-width: 500px;
+    border-radius: 3%;
+
+}
+.str2-foto1 img {
+    max-width: 200px;
     border-radius: 50%;
 
 }
@@ -173,7 +185,7 @@ body {
 .str2-gifts {
     font-size: 20px;
     max-width: 600px;
-    text-align: center;
+    text-align: justify;
 }
 
 .str2-fotos {
@@ -216,6 +228,7 @@ body {
 .str3-h2 {
     font-size: 40px;
     padding-bottom: 50px;
+    font-family: Montserrat-Light, sans-serif;
 }
 
 .str3-text {
