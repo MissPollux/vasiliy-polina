@@ -124,7 +124,8 @@ body {
     padding-bottom: 50px;
 }
 
-.str2:before {
+.str2 .container:before {
+    max-height: 100%;
     content: "";
     position: absolute;
     width: 100%;
